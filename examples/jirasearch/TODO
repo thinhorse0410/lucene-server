@@ -1,0 +1,32 @@
+use renderedFields instead?  this translates jira markup to HTML
+
+hmm is point-in-time searcher version not working!
+
+better handling of renamed issues
+
+are we getting dup suggestions w/ rename?
+
+org.this.that is not splitting into tokens!!
+
+lucene smoke doesn't highlight lucene in suggestions?
+
+remove isDev/prod/isMike?
+
+NRT is failing to show new comments?
+
+grep through production logs for exeptions!
+
+why does "bens" make bogus suggestions?
+
+search for 7462 SHOULD have found LUCENE-7174, like it does in production now
+
+how come number search e.g. 7462 does not highlight the issue title?
+
+annoyingly, the Jira query process does NOT count a new commit on an issue as updating its timestamp
+
+is NRT indexer not seeing newly created issues?
+
+merge the missed issues back into allIssues.txt in /lucenedata
+
+is there a faster bulk export?
+  - should i re-do w/ rendering and use html strip char factory to get good final inch highlighting somehow...
